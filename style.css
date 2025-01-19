@@ -1,0 +1,58 @@
+/*  Header Section  */
+.top {
+    background-color: #1F2937;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 600px;
+}
+
+/*  Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo {
+    font-size: 24px;
+}
+
+.headerLinks {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    list-style: none;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/*  Header Information  */
+.topSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.awesomeWebsite {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+
+.titleInfo {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.mainSignUp {
+    border: none;
+    border-radius: 8px;
+    padding: 6px 24px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+}
