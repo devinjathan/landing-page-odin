@@ -1,11 +1,17 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
 /*  Header Section  */
 .top {
     background-color: #1F2937;
-    font-family: 'Roboto';
+    font-family: Roboto;
     display: flex;
     flex-direction: column;
     color: white;
     height: 600px;
+    padding: 0px 40px 0px 40px;
+    border: none;
 }
 
 /*  Header */
@@ -34,7 +40,10 @@ a {
 /*  Header Information  */
 .topSection {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 20px;
 }
 
 .awesomeWebsite {
@@ -55,4 +64,12 @@ a {
     background-color: #3882F6;
     color: white;
     font-weight: bold;
+}
+
+.placeHolderImg1 {
+  border: 1px solid #ddd;
+  padding: 8px 24px;
+  width: 800px;
+  background-color: beige;
+  color:black
 }
