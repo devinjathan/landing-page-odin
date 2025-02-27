@@ -9,8 +9,8 @@ body, html {
     display: flex;
     flex-direction: column;
     color: white;
-    height: 600px;
-    padding: 0px 40px 0px 40px;
+    height: 500px;
+    padding: 0px 200px 0px 200px;
     border: none;
 }
 
@@ -41,9 +41,6 @@ a {
 .topSection {
     display: flex;
     justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    gap: 20px;
 }
 
 .awesomeWebsite {
@@ -68,8 +65,74 @@ a {
 
 .placeHolderImg1 {
   border: 1px solid #ddd;
-  padding: 8px 24px;
+  display: grid;
+  place-items: center;
+  font-size: 10px;
   width: 800px;
   background-color: beige;
   color:black
+}
+
+/* Images Section */
+.bodyInfo {
+    text-align: center;
+    height: 600px;
+    align-items: center;
+}
+
+.fourImageContainer {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    width: 200px;
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.randInfo {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.imgInfo {
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+/* QUOTE */
+.QuoteSection {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.QuoteContainer {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+
+.Quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.QuoteSpeaker{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: right;
 }
